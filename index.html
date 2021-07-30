@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <title>2048</title>
 </head>
 <body>
-    <h1>2048</h1>
-    <p id="score"></p>
-    <div class="size-bloc">
-        <p id="size-title">Size : </p>
-        <input id="size" type="number" value="4">
-        <input id="change-size" type="button" value="ok">
-        <div class="clear"></div>
-    </div>
-    <div id="canvas-bloc">
-        <canvas id="canvas" width="500" height="500"></canvas>
-    </div>
-
-    <script src="app.js"></script>
+  <h1>2048</h1>
+  <p id="score"></p>
+  <div id="size-bloc">
+    <p id="size-title">Size : </p>
+    <input id="size" type="number" value="4">
+    <input id="change-size" type="button" value="Ok">
+    <div class="clear"></div>
+  </div>
+  <div id="canvas-block">
+    <canvas id="canvas" width="500" height="500"></canvas>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
